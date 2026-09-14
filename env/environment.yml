@@ -1,0 +1,14 @@
+name: syn3-ncrna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - biopython
+  - infernal
+  - viennarna
+  - blast
+  - pip
+  - pip:
+      - jupyter
